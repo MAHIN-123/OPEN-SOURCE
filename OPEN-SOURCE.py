@@ -161,9 +161,8 @@ for xd in range(10000):
 
 #---------------END--------------#
 logo=("""  \33[1;91m
-      ╔═╗╦ ╦╔═╗╔╦╗  ╔╦╗╔═╗╦ ╦╦╔╗╔  ╦╔═╗╦  ╔═╗╔╦╗
-      ╚═╗╚╦╝║╣  ║║  ║║║╠═╣╠═╣║║║║  ║╚═╗║  ╠═╣║║║
-      ╚═╝ ╩ ╚═╝═╩╝  ╩ ╩╩ ╩╩ ╩╩╝╚╝  ╩╚═╝╩═╝╩ ╩╩ ╩
+shinji
+      
 
 \033[1;31m[\033[1;32m+\033[1;31m]\033[1;93m═════════════════════════════════════════════════\033[1;31m[\033[1;32m+\033[1;31m]
      \033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m CREATED BY\33[32;m   : SYED MAHIN ISLAM \033[1;96m 
@@ -232,7 +231,7 @@ def mahin():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp) 
-    with ThreadPool(max_workers=60) as mahin:
+    with ThreadPool(max_workers=60) as shinji:
         os.system('clear')
         time.sleep(0.2)
         print(logo)
